@@ -1,0 +1,11 @@
+Package: turntrim
+Type: Package
+Title: Trim a Chat Transcript to a Token Budget
+Version: 0.1.0
+Description: A command-line tool that reads the turns of a chat transcript from
+    standard input and shows which turns fit a token budget, how the tokens are
+    shared, how the turns group into chunks and what a transcript costs.
+License: file LICENSE
+Encoding: UTF-8
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
